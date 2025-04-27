@@ -47,7 +47,10 @@ const PlaceOrder = () => {
 
         if (response.data.success) {
             const {session_url} = response.data;
-            window.location.replace(session_url);          
+            window.location.replace(session_url);
+            console.log(window.location.replace(session_url));
+             
+            console.log(response.data)         
         }
         else{
           alert("Error");
@@ -75,7 +78,7 @@ const PlaceOrder = () => {
           <input required name='lastName' onChange={onChangeHandler} value={data.lastName} type="text" placeholder='Last name'/>
         </div>
         <input required name='email' onChange={onChangeHandler} value={data.email} type="text" placeholder='Email address' />
-        <input required name='street' onChange={onChangeHandler} value={data.streer} type="text" placeholder='street'/>
+        <input required name='street' onChange={onChangeHandler} value={data.street} type="text" placeholder='street'/>
         <div className="multi-fields">
             <input required name='city' onChange={onChangeHandler} value={data.city} type="text" placeholder='City'/>
             <input required name='state' onChange={onChangeHandler} value={data.state} type="text" placeholder='State'/>

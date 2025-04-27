@@ -1,24 +1,26 @@
-# Node modules
-node_modules/
+# # Node modules
+# node_modules/
 
-# Environment files
-.env
+# # Environment files
+# .env
 
-# Build output
-dist/
-build/
+# # Build output
+# dist/
+# build/
 
-# Logs
-logs/
-*.log
+# # Logs
+# logs/
+# *.log
 
-# OS junk
-.DS_Store
-Thumbs.db
+# # OS junk
+# .DS_Store
+# Thumbs.db
 
-#bullet proof 
-node_modules/
-.env
-.DS_Store
-build/
-dist/
+# #bullet proof 
+# node_modules/
+# .env
+# .DS_Store
+# build/
+# dist/
+# # Ignore environment files
+# *.env
