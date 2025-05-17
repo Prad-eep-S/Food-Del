@@ -79,7 +79,7 @@ import { ToastContainer } from 'react-toastify'
 
 const App = () => {
   const [access, setAccess] = useState(false)
-  const url = "http://localhost:4000"
+  const url = "https://nammafood-backend.onrender.com"
 
   return (
     <div>
